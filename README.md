@@ -32,7 +32,7 @@ Xcode must be `13.4` and higher versions with all Xcode dependencies updated. <b
 Compatible with MacOS Monterey `12.0` or higher versions <br/> 
 Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatiability.
 # 🛠️ Developing Languages, Tools, and Techniques Needed
-
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/> 
 
 
 
