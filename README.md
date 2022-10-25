@@ -214,7 +214,10 @@ Create a new [RecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-Ap
 
 
 # Debugging&Troubleshooting
-
+-  Error: The vertical images were overflowing into the recipe title and description. DEBUGGING:
+ Change `.frame(height: 300)` to `.scaledToFill() ..frame(height: 300, alignment: .center)
+ ..clipped()` to manually crop the image into aligned height to fit the screen.
+ 
 # Testing Result
 [all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
 [all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
