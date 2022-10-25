@@ -52,6 +52,7 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
 Create a new Xcode project.<br/> 
 Rearrange all files into different folders properly.<br/>
 Set up Automatic Preview for SwiftUI files: `Adjust Editor Options -> Enable Canvas on-side.`
+reflect to [SECURITY.md]() about Xcode project pushing to Gitbub. 
 # Synchronous Developing Notes
 Start by create several View files under `Main` and define their navigation view titles:<br/>
 In [HomeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/HomeVIew.swift):
