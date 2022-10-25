@@ -106,6 +106,47 @@ Add Stack navigation view style to all views:
 ```Swift 
 .navigationViewStyle(.stack)
 ```
+## ***Data Model:***
+Create [RecipeModel.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Models/RecipeModel.swift):<br/>
+Conform to the identifiable protocol since each recipe is unique with all its attributes:
+```Swift 
+ struct Recipe: Identifiable {
+    let id = UUID()
+    let name: String
+    let image: String
+    let description: String
+    let ingredients: String
+    let directions: String
+    let category: Category
+    let datePublished: String
+    let url: String}
+```
+Create a enum to enumerate all the preset meal courses:
+```Swift
+ enum Category:  String {
+    case breakfast = "Breakfast"
+    case soup = "Soup"
+    case salad = "Salad"
+    case appetizer = "Appetizer"
+    case main = "Main"
+    case side = "Side"
+    case dessert = "Dessert"
+    case snack = "Snack"
+    case drink = "Drink"}
+```
+Prepare some recipes in the form of static data by adding some extensions to the recipe.<br/> 
+Test in HomeView.swift to see if recipe names display:
+```Swift
+NavigationView {
+            List(Recipe.all){ recipe in
+                Text(recipe.name)
+                    .navigationTitle("My Recipes")
+```
+
+
+
+
+
 
 
 
