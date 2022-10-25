@@ -53,6 +53,32 @@ Create a new Xcode project.<br/>
 Rearrange all files into different folders properly.<br/>
 Set up Automatic Preview for SwiftUI files: `Adjust Editor Options -> Enable Canvas on-side.`
 # Synchronous Developing Notes
+Start by create several View files under `Main` and define their navigation view titles:<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
