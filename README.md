@@ -45,11 +45,12 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
    <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/sf%20symbol%20logo.png" title = "SF Symbol" alt ="SF Symbol" width = "60" height="60"/>&nbsp; 
    <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title ="Swift" alt ="Swift" width="60" height="60"/>&nbsp;
    <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/postimage%20logo.png" title="PostImage" alt="PostImage" width="286" height="60"/>&nbsp; 
-   <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/forks%20over%20knives%20logo.png" title ="Forks over Knives" alt ="Forks over Knives" width = "358" height = "60"/>&nbsp;   
-   
-   
-   
+   <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/forks%20over%20knives%20logo.png" title ="Forks over Knives" alt ="Forks over Knives" width = "358" height = "60"/>&nbsp;     
 </div>
+
+# Prerequisites & Setups
+
+
 
 
 
