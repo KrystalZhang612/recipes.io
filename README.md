@@ -18,7 +18,7 @@ An App that allows users to store recipes, browse them, organize them by categor
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#testing-result)
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#author)
 # Functionalities/Demo
 - Allowing users to store their favorite recipes from various online resources like Pinterest. 
 - Allowing users to organize their saved recipes by different categories and view details.
