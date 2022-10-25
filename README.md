@@ -49,6 +49,11 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
 </div>
 
 # Prerequisites & Setups
+Create a new Xcode project.<br/> 
+Rearrange all files into different folders properly.<br/>
+Set up Automatic Preview for SwiftUI files: `Adjust Editor Options -> Enable Canvas on-side.`
+# Synchronous Developing Notes
+
 
 
 
