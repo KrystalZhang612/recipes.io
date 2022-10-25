@@ -200,8 +200,45 @@ RecipeList(recipes: Recipe.all)
 [HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
 ## ***Recipe View:***
 Create a new [RecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/RecipeView.swift):<br/>
-
-
+Import recipe ingredients and directions:
+```Swift 
+ VStack(alignment: .leading, spacing: 20){
+                        Text("Ingredients")
+                            .font(.headline)
+                        Text(recipe.ingredients)}
+                    VStack(alignment: .leading, spacing: 20){
+                        Text("Directions")
+                            .font(.headline)
+                        Text(recipe.directions)
+```
+Adjust the framework of text alignment:
+```Swift
+.frame(maxWidth: .infinity, alignment: .leading)
+      .padding(.horizontal)
+      .ignoresSafeArea(.container, edges: .top)
+```
+Navigate to ViewList in RecipeList.swift:
+```Swift 
+NavigationLink(destination: RecipeView(recipe: recipe)){
+           RecipeCard(recipe: recipe)
+```
+Now run the simulator, click on image on HomeView will be redirected to Recipe Page:<br/>
+[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-1.png)<br/> 
+[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-2.png)<br/>
+## ***Recipe Categories:***
+Identify category list in [CategoriesView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/CategoriesView.swift):
+```Swift 
+ List {
+    ForEach(Category.allCases){ category in
+    Text(category.rawValue + "s")
+```
+Now all categories displayed as a list:<br/>
+[categories displayed as a list.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20displayed%20as%20a%20list.png)<br/> 
+And if click certain category, will be navigated to its related recipes:<br/>
+[categories navigation works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20navigation%20works-1.png)<br/> 
+[categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
+## ***Add Recipe Form:***
+Create [AddRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/AddRecipeView.swift) to add recipe forms:<br/> 
 
 
 
@@ -225,6 +262,15 @@ Create a new [RecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-Ap
 [recipe name displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/recipe%20name%20displayed.png)<br/> 
 [all recipe images displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20images%20dsiplayed.png)<br/> 
 [HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
+[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-1.png)<br/> 
+[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-2.png)<br/>
+[categories displayed as a list.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20displayed%20as%20a%20list.png)<br/> 
+[categories navigation works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20navigation%20works-1.png)<br/> 
+[categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
+
+
+
+
 
 
 
