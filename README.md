@@ -5,13 +5,5 @@ An App that allows users to store recipes, browse them, organize them by categor
   <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-1.png" width = "200" height = "200"/> 
 </div> 
 <br/> 
-![Screenshot](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-2.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-3.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-4.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-5.png)<br/>
-
-
-
-
 
 `NOTE:` In Xcode, when push the modified project to Github, `Shoow the Source Control Navigator->Changes`, see all the files turned green, must right click "Commit"-> select all files including the project -> Commit, once the greenish files in `Changes` disappeared, select `Repositories`->`Remote`-> New Pushing... 
