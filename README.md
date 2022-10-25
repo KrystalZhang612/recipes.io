@@ -54,7 +54,23 @@ Rearrange all files into different folders properly.<br/>
 Set up Automatic Preview for SwiftUI files: `Adjust Editor Options -> Enable Canvas on-side.`
 # Synchronous Developing Notes
 Start by create several View files under `Main` and define their navigation view titles:<br/>
-
+In [HomeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/HomeVIew.swift):
+```Swift 
+struct HomeView: View {
+    var body: some View {
+        NavigationView {
+            Text("My Recipes")
+                .navigationTitle("My Recipes")
+}}}
+In CategoriesView.swift:
+ struct CategoriesView: View {
+    var body: some View {
+        NavigationView {
+            Text("Categories")
+.navigationTitle("Categories") In NewRecipeView.swift:
+ struct NewRecipeView: View {
+    var body: some View {
+```
 
 
 
