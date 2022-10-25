@@ -142,6 +142,8 @@ NavigationView {
                 Text(recipe.name)
                     .navigationTitle("My Recipes")
 ```
+[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
+
 
 
 
@@ -155,6 +157,8 @@ NavigationView {
 
 # Testing Result
 [all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
+[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
+
 
 
 
