@@ -42,6 +42,9 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
 <div>
    <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title="SwiftUI" alt ="SwiftUI" width="60" height ="60"/>&nbsp; 
    <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title ="Xcode" alt ="Xcode" width="60" height ="60"/>&nbsp; 
+   <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/sf%20symbol%20logo.png" title = "SF Symbol" alt ="SF Symbol" width = "60" height="60"/>&nbsp; 
+   <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title ="Swift" alt ="Swift" width="60" height="60"/>&nbsp;
+   
    
    
    
