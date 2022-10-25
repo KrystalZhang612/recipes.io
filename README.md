@@ -70,7 +70,37 @@ In CategoriesView.swift:
 .navigationTitle("Categories") In NewRecipeView.swift:
  struct NewRecipeView: View {
     var body: some View {
+     NavigationView {
+            Text("New Recipe")
+.navigationTitle("New Recipe")
+In FavoritesView.swift, initialize no favorites currently saved for the user:
+ struct FavoritesView: View {
+    var body: some View {
+        NavigationView {
+          Text("You haven't saved any recipe to your favorites yet.")
+.padding()
+.navigationTitle("Favorites") Initialize version in SettingsView.swift:
+ struct SettingsView: View {
+    var body: some View {
+        NavigationView {
+            Text("v1.0.0")
+                .navigationTitle("Settings")
 ```
+## ***Tab Bar Implementation:***
+Create a new SwiftUIView file named [TabBar.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/TabBar.swift):<br/>
+Add tab views and tab items for each sections with icons from SF Symbol such as:<br/>
+```Swift 
+TabView{
+...
+HomeView()
+    .tabItem {
+        Label("Home", systemImage: "house") }
+```
+[all tab bars displayed.PNG]()<br/>
+
+# Testing Result
+
+
 
 
 
