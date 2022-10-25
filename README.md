@@ -39,6 +39,11 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
 [Swift](https://developer.apple.com/swift/)<br/> 
 [Forks over Knives Recipes](https://www.forksoverknives.com)<br/> 
 [PostImage(JPG/PNG Direct Link Generator)](https://postimages.org)<br/>
+<div>
+   <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title="SwiftUI" alt ="SwiftUI" width="60" height ="60"/>&nbsp; 
+   
+</div>
+
 
 
 
