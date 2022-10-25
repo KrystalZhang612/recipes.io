@@ -31,6 +31,8 @@ Xcode must be `13.4` and higher versions with all Xcode dependencies updated. <b
 `NOTE`Not fully compatiable with iOS 16. Fully compatiable with any versions lower than iOS 16 devices. <br/> 
 Compatible with MacOS Monterey `12.0` or higher versions <br/> 
 Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatiability.
+# 🛠️ Developing Languages, Tools, and Techniques Needed
+
 
 
 
