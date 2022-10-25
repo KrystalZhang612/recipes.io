@@ -35,6 +35,11 @@ Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatia
 [SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/> 
 [Xcode 14.0.1 iPhone 13 Simulator iOS 15](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_0_1-release-notes)<br/>
 [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language))<br/> 
+[SF Symbols](https://developer.apple.com/sf-symbols/)<br/> 
+[Swift](https://developer.apple.com/swift/)<br/> 
+[Forks over Knives Recipes](https://www.forksoverknives.com)<br/> 
+[PostImage(JPG/PNG Direct Link Generator)](https://postimages.org)<br/>
+
 
 
 
