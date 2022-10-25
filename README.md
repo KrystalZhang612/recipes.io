@@ -240,15 +240,81 @@ And if click certain category, will be navigated to its related recipes:<br/>
 [categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
 ## ***Add Recipe Form:***
 Create [AddRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/AddRecipeView.swift) to add recipe forms:<br/> 
+Set Categories a selectable view:
+```Swift 
+Section(header: Text("Category")){
+         Picker("Category", selection: $selectedCategory) {
+                 ForEach(Category.allCases) { category in
+                 Text(category.rawValue)
+```
+[selected category works.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/selected%20category%20works.png)<br/> 
+## ***Text Editor:***
+Use `TextEditor(text: $...))` to bind text editing sections.
+## ***Toolbar Item:***
+Obtain a x mark for cancellation and a check mark for done:
+```Swift 
+ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        } label:{
+                        Label("Cancel", systemImage: "xmark")
+                            .labelStyle(.iconOnly)
+     ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        } label:{
+                        Label("Done", systemImage: "checkmark")
+                            .labelStyle(.iconOnly)
+```
+[xmark and checkmark.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/xmark%20and%20checkmark.png)<br/> 
+## ***Present Form:***
+In [NewRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/NewRecipeView.swift), manually add the form and make it present:
+```Swift 
+ @State private var showAddRecipe = false
+...
+            Button("Add recipe manually"){
+                showAddRecipe = true
+        ...
+        .sheet(isPresented: $showAddRecipe){
+            AddRecipeView()
 
-
-
-
-
-
-
-
-
+```
+[manually add new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/manually%20add%20new%20recipe.png)<br/>
+## ***MVVM Design Pattern:***
+Create a [RecipesViewModel.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/ViewModels/RecipesViewModel.swift):
+```Swift 
+ class RecipesViewModel: ObservableObject {
+    @Published private(set) var recipes: [Recipe] = []
+    init() {
+recipes = Recipe.all }
+```
+Configure the state object and its environment in [Recipes.io AppApp.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Recipes.io%20AppApp.swift):
+```Swift 
+ @StateObject var recipesViewModel = RecipesViewModel()
+```
+## ***Save Recipe:***
+Create a new add recipe function in RecipesViewModel.swift:
+```Swift
+ func addRecipe(recipe: Recipe){
+        recipes.append(recipe } }
+```
+Also add an extension to configure the newly added recipes in [AddRecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/AddRecipeView.swift):
+```Swift 
+extension AddRecipeView{
+    private func saveRecipe(){
+        let now = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-mm-dd"
+        let datePublished = dateFormatter.string(from: now)
+        print(datePublished)
+        let recipe = Recipe(name: name, image: "", description:
+description, ingredients: ingredients, directions: directions,
+category: selectedCategory.rawValue , datePublished: datePublished,
+url: "")
+recipesVM.addRecipe(recipe: recipe) }}
+```
+Test, and here, new input recipe is added:<br/> 
+[add a new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/add%20a%20new%20recipe.png)<br/> 
+[new recipe is added-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-1.png)<br/> 
+[new recipe is added-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-2.png)<br/> 
 
 
 # Debugging&Troubleshooting
@@ -268,6 +334,12 @@ Create [AddRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/b
 [categories displayed as a list.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20displayed%20as%20a%20list.png)<br/> 
 [categories navigation works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20navigation%20works-1.png)<br/> 
 [categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
+[selected category works.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/selected%20category%20works.png)<br/> 
+[xmark and checkmark.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/xmark%20and%20checkmark.png)<br/> 
+[manually add new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/manually%20add%20new%20recipe.png)<br/>
+[add a new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/add%20a%20new%20recipe.png)<br/> 
+[new recipe is added-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-1.png)<br/> 
+[new recipe is added-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-2.png)<br/> 
 
 
 
