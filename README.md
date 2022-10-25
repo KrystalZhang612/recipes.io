@@ -20,5 +20,8 @@ An App that allows users to store recipes, browse them, organize them by categor
 # Contribution
 [Author]()
 # Functionalities/Demo
+- Allowing users to store their favorite recipes from various online resources like Pinterest. 
+- Allowing users to organize their saved recipes by different categories and view details.
+- Allowing users to create new recipes and add all details and descriptions.
 
 
