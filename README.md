@@ -13,7 +13,7 @@ An App that allows users to store recipes, browse them, organize them by categor
 
 # Build
 [Method to Run & Test the Project Locally]()<br/>
-[Prerequisites & Setups]()<br/> 
+[Prerequisites & Setups](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()
