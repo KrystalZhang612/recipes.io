@@ -11,4 +11,3 @@ An App that allows users to store recipes, browse them, organize them by categor
 </p> 
 <br/> 
 
-`NOTE:` In Xcode, when push the modified project to Github, `Shoow the Source Control Navigator->Changes`, see all the files turned green, must right click "Commit"-> select all files including the project -> Commit, once the greenish files in `Changes` disappeared, select `Repositories`->`Remote`-> New Pushing... 
