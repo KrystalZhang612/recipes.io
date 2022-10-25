@@ -10,4 +10,6 @@ An App that allows users to store recipes, browse them, organize them by categor
    <img src = "https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipe.io%20App%20overview-6.png" width = "403.44" height = "873.1034"/>
 </p> 
 <br/> 
+# Build
+
 
