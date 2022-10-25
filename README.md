@@ -1,2 +1,2 @@
-# Recipes.io-App
+# Recipes.io App
 `NOTE:` In Xcode, when push the modified project to Github, `Shoow the Source Control Navigator->Changes`, see all the files turned green, must right click "Commit"-> select all files including the project -> Commit, once the greenish files in `Changes` disappeared, select `Repositories`->`Remote`-> New Pushing... 
