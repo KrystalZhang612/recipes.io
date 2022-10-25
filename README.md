@@ -96,10 +96,24 @@ HomeView()
     .tabItem {
         Label("Home", systemImage: "house") }
 ```
-[all tab bars displayed.PNG]()<br/>
+[all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
+Add Tab Bars into [ContentView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/ContentView.swift):
+```Swift 
+TabBar()
+```
+And in Simulator, we can go to different screen sections by clicking on different tab bars icons.
+Add Stack navigation view style to all views:
+```Swift 
+.navigationViewStyle(.stack)
+```
+
+
+
+
+
 
 # Testing Result
-
+[all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
 
 
 
