@@ -143,6 +143,63 @@ NavigationView {
                     .navigationTitle("My Recipes")
 ```
 [all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
+## ***Recipe Card-AsyncImage:***
+Create a SwiftUI file [RecipeCard.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Components/RecipeCard.swift):<br/>
+Use VStack to define the width and height properties of recipe photo and background:
+```Swift 
+  VStack {
+            AsyncImage(url: URL(string: recipe.image)) { image in
+                image
+            } placeholder: {
+                Image(systemName: "photo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40,alignment: .center)
+                    .foregroundColor(.white.opacity(0.7))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+```
+[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/creamy%20carrot%20soup%20image%20shows%20up%20.png)<br/>
+To make the recipe image fit better with aspect ratio:
+```Swift 
+   .resizable()
+   .aspectRatio(contentMode: .fill)
+```
+Make the recipe name overlay properly display:
+```Swift 
+  Text(recipe.name)
+        .font(.headline)
+        .foregroundColor(.white)
+        .frame(maxWidth: 136)
+        .padding()
+```
+[recipe name displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/recipe%20name%20displayed.png)<br/> 
+## ***Recipe List:***
+Create a new file [RecipeList.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Components/RecipeList.swift):<br/>
+Use string literals to represent the recipe lists:
+```Swift 
+VStack {
+HStack {
+  Text("\(recipes.count) \(recipes.count > 1 ? "recipes" : "recipe")")
+            .font(.headline)
+            .fontWeight(.medium)
+            .opacity(0.7)
+Spacer()
+```
+Use LazyGrid to make all recipe images display and layout properly:
+```Swift 
+LazyVGrid(columns:
+[GridItem(.adaptive(minimum: 160), spacing: 15)], spacing: 15) {
+         ForEach(recipes) { recipe in
+         RecipeCard(recipe: recipe)
+```
+[all recipe images displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20images%20dsiplayed.png)<br/> 
+Also pass recipe list to HomeView:
+```Swift 
+RecipeList(recipes: Recipe.all)
+```
+[HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
+## ***Recipe View:***
+Create a new [RecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/RecipeView.swift):<br/>
 
 
 
@@ -154,10 +211,17 @@ NavigationView {
 
 
 
+
+
+# Debugging&Troubleshooting
 
 # Testing Result
 [all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
 [all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
+[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/creamy%20carrot%20soup%20image%20shows%20up%20.png)<br/>
+[recipe name displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/recipe%20name%20displayed.png)<br/> 
+[all recipe images displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20images%20dsiplayed.png)<br/> 
+[HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
 
 
 
