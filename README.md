@@ -26,11 +26,11 @@ An App that allows users to store recipes, browse them, organize them by categor
 # Compatibility
 `iPhone 13+`, `Any iOS Version < iOS 16`
 # Method to Run & Test the Project Locally
-Download the entire project to local directory <br/> 
-Xcode must be `13.4` and higher versions with all Xcode dependencies updated. <br/>
-`NOTE`Not fully compatiable with iOS 16. Fully compatiable with any versions lower than iOS 16 devices. <br/> 
-Compatible with MacOS Monterey `12.0` or higher versions <br/> 
-Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatiability.
+### Download the entire project to local directory 
+### Xcode must be `13.4` and higher versions with all Xcode dependencies updated. 
+### `NOTE`Not fully compatiable with iOS 16. Fully compatiable with any versions lower than iOS 16 devices. 
+### Compatible with MacOS Monterey `12.0` or higher versions. 
+### Run the project, choose Simulator iPhone 13 or iPhone 13ProMax for best compatiability.
 # 🛠️ Developing Languages, Tools, and Techniques Needed
 [SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/> 
 [Xcode 14.0.1 iPhone 13 Simulator iOS 15](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_0_1-release-notes)<br/>
