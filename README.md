@@ -24,7 +24,14 @@ An App that allows users to store recipes, browse them, organize them by categor
 - Allowing users to organize their saved recipes by different categories and view details.
 - Allowing users to create new recipes and add all details and descriptions.
 # Compatibility
-`iPhone 13+`, `Any iOS Version < iOS 16`
+|   OS             | Supported          |
+| -------          | ------------------ |
+| iOS 10+          | :white_check_mark: |
+| < iOS 10         | :x:                |
+| iOS 16           | :x:                |
+| macOS Mojave     | ✅                 |
+| macOS Monterey   | ✅                 |
+
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory 
 ### Xcode must be `13.4` and higher versions with all Xcode dependencies updated. 
