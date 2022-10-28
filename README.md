@@ -15,13 +15,13 @@ An App that allows users to store recipes, browse them, organize them by categor
 
 
 # Build
-[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
-[Prerequisites & Setups](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#prerequisites--setups)<br/> 
-[Debugging&Troubleshooting](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
-[Synchronous Developing Notes](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#testing-result)
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#method-to-run--test-the-project-locally)<br/>
+[Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#prerequisites--setups)<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#debuggingtroubleshooting)<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#synchronous-developing-notes)<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#testing-result)
 # Contribution
-[Author](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/README.md#author)
+[Author](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#author)
 # Functionalities/Demo
 - Allowing users to store their favorite recipes from various online resources like Pinterest. 
 - Allowing users to organize their saved recipes by different categories and view details.
