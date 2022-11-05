@@ -19,7 +19,8 @@ An App that allows users to store recipes, browse them, organize them by categor
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#synchronous-developing-notes)<br/> 
-[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#testing-result)
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#testing-result)<br/>
+[Tags and Topics]() 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#author)
 # Functionalities/Demo
@@ -351,6 +352,8 @@ Test, and here, new input recipe is added:<br/>
 [new recipe is added-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-1.png)<br/> 
 [new recipe is added-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-2.png)<br/> 
 
+# Tags and Topics 
+swift, uuid, xcode, uikit, mvvm, swiftui, swift5, sfsymbols. 
 # Author
 Krystal Zhang 
 https://github.com/KrystalZhang612<hr>
