@@ -20,7 +20,7 @@ An App that allows users to store recipes, browse them, organize them by categor
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#testing-result)<br/>
-[Tags and Topics]() 
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/README.md#tags-and-topics) 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App#author)
 # Functionalities/Demo
