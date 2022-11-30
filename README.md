@@ -104,7 +104,7 @@ HomeView()
     .tabItem {
         Label("Home", systemImage: "house") }
 ```
-[all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
+[all tab bars displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20tab%20bars%20displayed.PNG)<br/>
 Add Tab Bars into [ContentView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/ContentView.swift):
 ```Swift 
 TabBar()
@@ -150,7 +150,7 @@ NavigationView {
                 Text(recipe.name)
                     .navigationTitle("My Recipes")
 ```
-[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
+[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20recipe%20names%20displayed%20in%20HomeView.PNG)<br/>
 ## ***Recipe Card-AsyncImage:***
 Create a SwiftUI file [RecipeCard.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Components/RecipeCard.swift):<br/>
 Use VStack to define the width and height properties of recipe photo and background:
@@ -166,7 +166,7 @@ Use VStack to define the width and height properties of recipe photo and backgro
                     .foregroundColor(.white.opacity(0.7))
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
 ```
-[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/creamy%20carrot%20soup%20image%20shows%20up%20.png)<br/>
+[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/creamy%20carrot%20soup%20image%20shows%20up.PNG)<br/>
 To make the recipe image fit better with aspect ratio:
 ```Swift 
    .resizable()
@@ -180,7 +180,7 @@ Make the recipe name overlay properly display:
         .frame(maxWidth: 136)
         .padding()
 ```
-[recipe name displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/recipe%20name%20displayed.png)<br/> 
+[recipe name displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/recipe%20name%20displayed.PNG)<br/> 
 ## ***Recipe List:***
 Create a new file [RecipeList.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Components/RecipeList.swift):<br/>
 Use string literals to represent the recipe lists:
@@ -200,12 +200,12 @@ LazyVGrid(columns:
          ForEach(recipes) { recipe in
          RecipeCard(recipe: recipe)
 ```
-[all recipe images displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20images%20dsiplayed.png)<br/> 
+[all recipe images displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20recipe%20images%20dsiplayed.PNG)<br/> 
 Also pass recipe list to HomeView:
 ```Swift 
 RecipeList(recipes: Recipe.all)
 ```
-[HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
+[HomeView screen final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/HomeView%20screen%20final%20look.PNG)<br/> 
 ## ***Recipe View:***
 Create a new [RecipeView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/RecipeView.swift):<br/>
 Import recipe ingredients and directions:
@@ -231,8 +231,8 @@ NavigationLink(destination: RecipeView(recipe: recipe)){
            RecipeCard(recipe: recipe)
 ```
 Now run the simulator, click on image on HomeView will be redirected to Recipe Page:<br/>
-[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-1.png)<br/> 
-[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-2.png)<br/>
+[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/RecipeView%20from%20HomeView%20redirect%20works-1.PNG)<br/> 
+[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/RecipeView%20from%20HomeView%20redirect%20works-2.PNG)<br/>
 ## ***Recipe Categories:***
 Identify category list in [CategoriesView.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/CategoriesView.swift):
 ```Swift 
@@ -241,10 +241,10 @@ Identify category list in [CategoriesView.swift](https://github.com/KrystalZhang
     Text(category.rawValue + "s")
 ```
 Now all categories displayed as a list:<br/>
-[categories displayed as a list.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20displayed%20as%20a%20list.png)<br/> 
+[categories displayed as a list.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories%20displayed%20as%20a%20list.PNG)<br/> 
 And if click certain category, will be navigated to its related recipes:<br/>
-[categories navigation works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20navigation%20works-1.png)<br/> 
-[categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
+[categories navigation works-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories%20navigation%20works-1.PNG)<br/> 
+[categories navigation works-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories-navigation%20works-2.PNG)<br/> 
 ## ***Add Recipe Form:***
 Create [AddRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Details/AddRecipeView.swift) to add recipe forms:<br/> 
 Set Categories a selectable view:
@@ -254,7 +254,7 @@ Section(header: Text("Category")){
                  ForEach(Category.allCases) { category in
                  Text(category.rawValue)
 ```
-[selected category works.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/selected%20category%20works.png)<br/> 
+[selected category works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/selected%20category%20works.PNG)<br/> 
 ## ***Text Editor:***
 Use `TextEditor(text: $...))` to bind text editing sections.
 ## ***Toolbar Item:***
@@ -271,7 +271,7 @@ ToolbarItem(placement: .navigationBarLeading) {
                         Label("Done", systemImage: "checkmark")
                             .labelStyle(.iconOnly)
 ```
-[xmark and checkmark.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/xmark%20and%20checkmark.png)<br/> 
+[xmark and checkmark.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/xmark%20and%20checkmark.PNG)<br/> 
 ## ***Present Form:***
 In [NewRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/Views/Main/NewRecipeView.swift), manually add the form and make it present:
 ```Swift 
@@ -284,7 +284,7 @@ In [NewRecipeView,swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/
             AddRecipeView()
 
 ```
-[manually add new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/manually%20add%20new%20recipe.png)<br/>
+[manually add new recipe.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/manually%20add%20new%20recipe.PNG)<br/>
 ## ***MVVM Design Pattern:***
 Create a [RecipesViewModel.swift](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/Recipes.io%20App/ViewModels/RecipesViewModel.swift):
 ```Swift 
@@ -319,9 +319,9 @@ url: "")
 recipesVM.addRecipe(recipe: recipe) }}
 ```
 Test, and here, new input recipe is added:<br/> 
-[add a new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/add%20a%20new%20recipe.png)<br/> 
-[new recipe is added-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-1.png)<br/> 
-[new recipe is added-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-2.png)<br/> 
+[add a new recipe.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/add%20a%20new%20recipe.PNG)<br/> 
+[new recipe is added-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/new%20recipe%20is%20added-1.PNG)<br/> 
+[new recipe is added-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/new%20recipe%20is%20added-2.PNG)<br/> 
 
 
 # Debugging&Troubleshooting
@@ -330,23 +330,7 @@ Test, and here, new input recipe is added:<br/>
  ..clipped()` to manually crop the image into aligned height to fit the screen.
  
 # Testing Result
-[all tab bars displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20tab%20bars%20displayed.png)<br/>
-[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20names%20displayed%20in%20HomeView.png)<br/>
-[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/creamy%20carrot%20soup%20image%20shows%20up%20.png)<br/>
-[recipe name displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/recipe%20name%20displayed.png)<br/> 
-[all recipe images displayed.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/all%20recipe%20images%20dsiplayed.png)<br/> 
-[HomeView screen final look.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/HomeView%20screen%20final%20look.png)<br/> 
-[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-1.png)<br/> 
-[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/RecipeView%20from%20HomeView%20redirect%20works-2.png)<br/>
-[categories displayed as a list.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20displayed%20as%20a%20list.png)<br/> 
-[categories navigation works-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories%20navigation%20works-1.png)<br/> 
-[categories navigation works-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/categories-navigation%20works-2.png)<br/> 
-[selected category works.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/selected%20category%20works.png)<br/> 
-[xmark and checkmark.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/xmark%20and%20checkmark.png)<br/> 
-[manually add new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/manually%20add%20new%20recipe.png)<br/>
-[add a new recipe.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/add%20a%20new%20recipe.png)<br/> 
-[new recipe is added-1.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-1.png)<br/> 
-[new recipe is added-2.PNG](https://github.com/KrystalZhang612/Recipes.io-App/blob/main/new%20recipe%20is%20added-2.png)<br/> 
+
 
 # Tags and Topics 
 swift, uuid, xcode, uikit, mvvm, swiftui, swift5, sfsymbols. 
