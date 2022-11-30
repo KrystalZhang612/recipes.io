@@ -330,6 +330,50 @@ Test, and here, new input recipe is added:<br/>
  ..clipped()` to manually crop the image into aligned height to fit the screen.
  
 # Testing Result
+<p align = "center">
+   <img src = "https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20tab%20bars%20displayed.PNG" width = "403.44" height = "873.1034">&nbsp;
+</p>
+        
+        
+        
+        
+
+[all recipe names displayed in HomeView.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20recipe%20names%20displayed%20in%20HomeView.PNG)
+
+[creamy carrot soup image shows up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/creamy%20carrot%20soup%20image%20shows%20up.PNG)
+
+
+[recipe name displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/recipe%20name%20displayed.PNG)
+
+
+[all recipe images displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/all%20recipe%20images%20dsiplayed.PNG)
+
+[HomeView screen final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/HomeView%20screen%20final%20look.PNG)
+
+[RecipeView from HomeView redirect works-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/RecipeView%20from%20HomeView%20redirect%20works-1.PNG)
+
+[RecipeView from HomeView redirect works-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/RecipeView%20from%20HomeView%20redirect%20works-2.PNG)
+
+[categories displayed as a list.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories%20displayed%20as%20a%20list.PNG)
+
+
+[categories navigation works-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories%20navigation%20works-1.PNG)
+
+[categories navigation works-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/categories-navigation%20works-2.PNG)
+
+[selected category works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/selected%20category%20works.PNG)
+
+[xmark and checkmark.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/xmark%20and%20checkmark.PNG)
+
+[manually add new recipe.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/manually%20add%20new%20recipe.PNG)
+
+[add a new recipe.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/add%20a%20new%20recipe.PNG)
+
+
+[new recipe is added-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/new%20recipe%20is%20added-1.PNG)
+
+[new recipe is added-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-Recipes.io-App/blob/main/testing-result-Recipes.io%20App/new%20recipe%20is%20added-2.PNG)
+
 
 
 # Tags and Topics 
