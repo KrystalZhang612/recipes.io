@@ -51,12 +51,8 @@ An App that allows users to store recipes, browse them, organize them by categor
 [Forks over Knives Recipes](https://www.forksoverknives.com)<br/> 
 [PostImage(JPG/PNG Direct Link Generator)](https://postimages.org)<br/>
 <div>
-   <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title="SwiftUI" alt ="SwiftUI" width="60" height ="60"/>&nbsp; 
    <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title ="Xcode" alt ="Xcode" width="60" height ="60"/>&nbsp; 
-   <img src ="https://github.com/KrystalZhang612/RepliFlix/blob/main/sf%20symbol%20logo.png" title = "SF Symbol" alt ="SF Symbol" width = "60" height="60"/>&nbsp; 
-   <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title ="Swift" alt ="Swift" width="60" height="60"/>&nbsp;
-   <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/postimage%20logo.png" title="PostImage" alt="PostImage" width="286" height="60"/>&nbsp; 
-   <img src ="https://github.com/KrystalZhang612/Recipes.io-App/blob/main/forks%20over%20knives%20logo.png" title ="Forks over Knives" alt ="Forks over Knives" width = "358" height = "60"/>&nbsp;     
+   <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title ="Swift" alt ="Swift" width="60" height="60"/>&nbsp;    
 </div>
 
 # Prerequisites & Setups
